@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>features</title>
+    <style>
+        code {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Html features</h1>
+    <pre>
+        <code>
+The code is an HTML document. Here are the main features of this HTML code:
+
+1. **Document Type Declaration (DOCTYPE)**:
+   - <!DOCTYPE html>: This line specifies that the document is written in HTML5.
+
+2. **HTML Structure**:
+   - html lang="en": The root element of an HTML document, specifying the language as English.
+
+3. **Head Section**:
+   - head: Contains meta information about the document and links to external resources.
+     - meta charset="UTF-8">: Sets the character encoding to UTF-8.
+     - meta name="viewport" content="width=device-width, initial-scale=1.0": Defines the viewport settings for responsive web design.
+     - title: Sets the title of the webpage.
+     - link: Links external CSS files for styling.
+
+4. **Body Section**:
+   - body: Contains the visible content of the webpage.
+   - div id="header": An empty `div` element with the ID "header," presumably to be populated dynamically.
+   - main: The main content section of the webpage.
+
+5. **Sections**:
+   - Various div elements are used to structure the content into different sections, such as "introduction," "about," "promotion," "portfolio," and "product."
+
+6. **Images**:
+   - img tags are used to display images throughout the document, such as logos, product images, and promotional images.
+
+7. **Links**:
+   - a tags are used to create hyperlinks. Some are empty, indicated by a , and others point to specific HTML files or resources.
+
+8. **Text Content**:
+   - Various p, h1, h2, h3 elements are used to structure and display text content.
+
+9. **Footer**:
+   - footer: Contains information such as social media icons, contact details, and copyright information.
+
+   Overall, this HTML code represents the structure and content of a webpage for an ice cream shop, including sections for introduction, about, promotions, portfolio, and product listings, as well as a footer with contact and copyright information.
+    </code >
+    </pre>
+
+    <h1>JavaScript features</h1>
+    <pre>
+    <code>
+The code is JavaScript code that is used to handle a form submission with the ID "registrationForm." Here are the features of this code:
+
+1. **Event Listener**:
+   - `document.getElementById('registrationForm').addEventListener('submit', function (e) { ... }); `: Attaches an event listener to the form with the ID "registrationForm" for the "submit" event. When the form is submitted, the provided function is executed.
+
+2. **Form Data Extraction**:
+   - `const username = document.getElementById('username').value; `: Retrieves the value of the input element with the ID "username."
+   - `const password = document.getElementById('password').value; `: Retrieves the value of the input element with the ID "password."
+   - `const postcode = document.getElementById('postcode').value; `: Retrieves the value of the input element with the ID "postcode."
+
+3. **Error Handling**:
+   - Error messages are collected in the `errorMessages` array.
+   - Checks are performed on the form input data, and if any of the conditions fail, an error message is added to the `errorMessages` array.
+
+4. **Error Message Generation**:
+   - If the `username` is blank, the message "Username cannot be blank" is added to the `errorMessages` array.
+   - If the `password` is less than 9 characters long, the message "Password must be at least 9 characters long" is added to the `errorMessages` array.
+   - If the `postcode` does not match the pattern of a 4-digit number, the message "Postcode must be a 4-digit number" is added to the `errorMessages` array.
+
+5. **Form Submission Prevention**:
+   - `e.preventDefault(); `: Prevents the form from being submitted if there are errors. This is done by invoking `preventDefault()` on the event object `e`.
+
+6. **Error Message Display**:
+   - `const errorMessageDiv = document.getElementById('errorMessages'); `: Retrieves the element with the ID "errorMessages" where error messages will be displayed.
+   - `errorMessageDiv.innerHTML = errorMessages.join('br'); `: Updates the content of the "errorMessages" element to display error messages separated by line breaks ("br").
+
+   In summary, this code listens for the form submission, checks the input data for errors (username, password, and postcode), and prevents the form from being submitted if there are errors. It also displays error messages in an element with the ID "errorMessages."
+    </code>
+    </pre>
+</body>
+
+</html>

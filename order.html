@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="css/order.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <main>
+        <div class="order_section">
+            <div>
+
+                <div class="cart">
+                    <h2>Review Cart</h2>
+                    <table>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>vanilla ice cream</p>
+
+                                <img src="img/product-1.jpg" alt="">
+                            </td>
+                            <td>1</td>
+                            <td>$99</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>vanilla ice cream</p>
+
+                                <img src="img/product-2.jpg" alt="">
+                            </td>
+                            <td>1</td>
+                            <td>$99</td>
+
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="address">
+                    <h2>Shipping Adress</h2>
+                    <form action="">
+                        <div>
+                            <div>
+                                <label for="">First Name</label>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <label for="">Last Name</label>
+                                <input type="text">
+
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="">Email</label>
+                                <input type="email">
+
+                            </div>
+                            <div>
+                                <label for="">Phone</label>
+                                <input type="tel">
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="">
+                                <label for="">Address</label>
+                                <input type="text">
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="">
+                                <label for="">City</label>
+                                <input type="text">
+
+                            </div>
+                            <div>
+                                <label for="">State</label>
+                                <input type="text">
+
+                            </div>
+                            <div>
+                                <label for="">Country</label>
+                                <input type="text">
+
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+
+            <div>
+                <table class="price_table">
+                    <tr>
+                        <td>Total Price</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$110</td>
+                    </tr>
+                </table>
+                <hr>
+                <img class="payment_img" src="img/payment.png" alt="">
+                <button class="Place_order_btn"><a href="">Place Order</a></button>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('#header').load('header.html');
+    </script>
+</body>
+
+</html>

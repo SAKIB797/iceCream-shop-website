@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <title>Registration and Order</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <form id="registrationForm">
+        <h1>Registration</h1>
+
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="" required>
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="john@mail.com" required>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="at least 9 characters" required>
+        </div>
+
+        <div>
+            <label for="postcode">Postcode</label>
+            <input type="text" id="postcode" placeholder="4 digits" required>
+        </div>
+
+        <div>
+            <input class="submit" type="submit" value="Submit">
+        </div>
+        <div id="errorMessages"></div>
+    </form>
+
+    <script src="js/register.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('#header').load('header.html');
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+body {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(64, 224, 208, 0.2);
+}
+
+.order_section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 50px;
+    width: 90%;
+    margin: auto;
+}
+
+/********************* css for table for both cart and payment section****************/
+table {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+td img {
+    height: 60px;
+    border-radius: 10px;
+}
+
+td p {
+    margin: 0;
+    margin: 10px 0px 5px 0px;
+}
+
+tr {
+    width: 100%;
+}
+
+tr td {
+    text-align: ;
+    color: darkslategray;
+}
+
+tr th {
+    text-align: left;
+}
+
+/****************css for both cart and address form**************/
+.order_section>div:nth-child(1) {
+    width: 70%;
+}
+
+.cart,
+.address {
+    background-color: white;
+    padding: 10px 30px 30px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/*******************************address input form**********************/
+.address form {
+    width: 100%;
+}
+
+.address form div {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.address form div div {
+    display: inline-block;
+    margin: 10px;
+    width: 45%;
+}
+
+.address form div div input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    padding-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+form>div:nth-child(4)>div {
+    width: 25%;
+}
+
+/***********************payment section*********************/
+.order_section>div:nth-child(2) {
+    width: 20%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.payment_img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Place_order_btn {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background-color: deeppink;
+}
+
+.Place_order_btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/****************code for small sceeen************/
+@media only screen and (max-width:600px) {
+    body {
+        padding-top: 150px;
+        padding-bottom: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(64, 224, 208, 0.2);
+    }
+    
+    .order_section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        column-gap: 50px;
+        width: 90%;
+        margin: auto;
+    }
+    
+    /********************* css for table for both cart and payment section****************/
+    table {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    
+    td img {
+        height: 60px;
+        border-radius: 10px;
+    }
+    
+    td p {
+        margin: 0;
+        margin: 10px 0px 5px 0px;
+    }
+    
+    tr {
+        width: 100%;
+    }
+    
+    tr td {
+        text-align: ;
+        color: darkslategray;
+    }
+    
+    tr th {
+        text-align: left;
+    }
+    
+    /****************css for both cart and address form**************/
+    .order_section>div:nth-child(1) {
+        width: 100%; 
+    }
+    
+    .cart,
+    .address {
+        background-color: white;
+        padding: 10px 30px 30px 30px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    /*******************************address input form**********************/
+    .address form {
+        width: 100%;
+    }
+    
+    .address form div {
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    
+    .address form div div {
+        display: inline-block;
+        margin: 0px; 
+        margin-bottom: 15px;
+        width: 100%; 
+    }
+    
+    .address form div div input {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        height: 30px;
+        padding-left: 5px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    
+    form>div:nth-child(4)>div {
+        /* width: 30%; */
+        margin: 5;
+    }
+    
+    /***********************payment section*********************/
+    .order_section>div:nth-child(2) {
+        width: auto;
+        background-color: white;
+        padding: 30px;
+    }
+    
+    .payment_img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .Place_order_btn {
+        display: block;
+        width: 100%;
+        outline: none;
+        border: none;
+        margin-top: 20px;
+        padding: 10px 0px;
+        border-radius: 5px;
+        background-color: deeppink;
+    }
+    
+    .Place_order_btn a {
+        text-decoration: none;
+        color: white;
+    }
+}
