@@ -172,7 +172,7 @@ main>div:nth-child(5) {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 20px;
-    row-gap: 10px;
+    row-gap: 20px;
 }
 .order_section > div {
     padding: 0px 10px;

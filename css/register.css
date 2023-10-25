@@ -53,3 +53,15 @@ h1 {
     margin-bottom: 20px;
     color: ;
 }
+/***************** css for small screen***********/
+@media only screen and (max-width:600px) {
+    #registrationForm {
+        width: 60%;
+        margin: auto;
+        padding: 30px 50px 15px 50px;
+        border-radius: 20px;
+        background-color: deeppink;
+        color: white;
+    }
+    
+}
