@@ -135,7 +135,6 @@ main>div:nth-child(3)>div:nth-child(2)>a {
 
 main>div:nth-child(4) {
     padding-top: 50px;
-    padding-bottom: 100px;
     background-color: rgba(176, 224, 230, 0.505);
 
 }
