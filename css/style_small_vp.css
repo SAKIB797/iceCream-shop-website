@@ -106,7 +106,7 @@ main>div:nth-child(3) img {
 }
 
 main>div:nth-child(3)>div:nth-child(2) {
-    padding: 100px;
+    padding: 60px 30px 80px 30px;
     text-align: center;
     background-color: rgba(255, 20, 145, 0.7);
     color: white;
@@ -162,7 +162,7 @@ main>div:nth-child(4)>h2 {
 }
 
 main>div:nth-child(5) {
-    width: 70%;
+    width:85%;
     margin: auto;
     padding-bottom: 100px;
     background-color: rgba(176, 224, 230, 0.505);
@@ -222,4 +222,15 @@ main>div:nth-child(5) > h2 {
     font-size: 14px;
     background-color: dodgerblue;
 }
+footer img {
+    width: 80px;
+    height: 80px;
+}
+.footer_details>div:nth-child(1)>p,
+.footer_details>div:nth-child(2)>p,
+footer>p {
+    color: gray;
+    font-size: 14px;
+}
+
 }
