@@ -4,7 +4,7 @@ I developed all the web pages using pure HTML and CSS with a small amount of Jav
 I did not use any frameworks such as Bootstrap or Tailwind.  
 I took inspiration for the UI from https://htmlcodex.com/ice-cream-shop-website-template.
 ## Author Information
-:pencil2: Iftekhar Sakib  
-:arrow_right: [Email]( pro.iftekhar@gmail.com)  
-:arrow_right: [Facebook](https://www.facebook.com/SAKIB797)
+📝: Iftekhar Sakib  
+📧: [Email]( pro.iftekhar@gmail.com)  
+🔗: [Facebook](https://www.facebook.com/SAKIB797)
 
